@@ -88,6 +88,14 @@ const titles = [
 //"--- wrote --- in ---"
 
 //Sort books from oldest to most recent
+const months = ['March', 'Jan', 'Feb', 'Dec'];
+months.sort();
+console.log(months);
+
+
+const array1 = [1, 30, 4, 21, 100000];
+array1.sort();
+console.log(array1);
 
 //sort books alphabetically
 
@@ -100,3 +108,5 @@ const titles = [
 //was every book published within the last 100 years?
 
 //print a list of books that "includes" the genre historical
+
+f
