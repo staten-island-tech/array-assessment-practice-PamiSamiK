@@ -86,16 +86,10 @@ const titles = [
 
 //Array of authors and the book they wrote
 //"--- wrote --- in ---"
+const array1 = [books];
 
+array1.forEach((element) => console.log(element));
 //Sort books from oldest to most recent
-const months = ['March', 'Jan', 'Feb', 'Dec'];
-months.sort();
-console.log(months);
-
-
-const array1 = [1, 30, 4, 21, 100000];
-array1.sort();
-console.log(array1);
 
 //sort books alphabetically
 
@@ -109,4 +103,3 @@ console.log(array1);
 
 //print a list of books that "includes" the genre historical
 
-f
